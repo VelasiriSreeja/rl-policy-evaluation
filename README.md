@@ -98,7 +98,7 @@ def print_policy(pi, P, action_symbols=('<', 'v', '>', '^'), n_cols=4, title='Po
             print("".rjust(9), end=" ")
         else:
             print(str(s).zfill(2), arrs[a].rjust(6), end=" ")
-        if (s + 1) % n_cols == 0: print("|")
+        if (s + 1) % n_cols ==0:print("|")
 
 ```
 
